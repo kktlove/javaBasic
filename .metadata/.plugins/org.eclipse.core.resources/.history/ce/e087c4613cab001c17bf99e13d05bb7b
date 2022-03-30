@@ -1,0 +1,19 @@
+package sec2;
+/*
+6. for문을 이용해서 실행 결과와 같은 삼각형을 출력하는 코드를 작성해보세요
+실행 결과
+*
+**
+***
+****
+*****
+
+*/
+public class DoubleForEx2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

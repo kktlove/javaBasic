@@ -1,0 +1,8 @@
+package sec2;
+
+public class MathRandomEx1 {
+	public static void main(String[] args) {
+		System.out.println((int) (Math.random()*6)+1);  //난수(0~5)
+		
+	}
+}

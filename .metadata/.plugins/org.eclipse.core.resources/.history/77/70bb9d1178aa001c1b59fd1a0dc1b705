@@ -1,0 +1,31 @@
+package sec2;
+
+public class WhileEx1 {
+
+	public static void main(String[] args) {
+		//카운트변수초기화; while(조건식) { 반복수행문; 증감식; }
+		//조건과 결과누적, 카운트변수의 증감식 위치에 따라 그 결과가 완전 달라짐
+		int i = 0, sum = 0;
+		while(i<10) {
+			i++;	//9 -> 10
+			sum+=i;
+		}
+		System.out.println("sum="+sum);
+		
+		i = 0;			//처음 한번 만 실행
+		sum = 0;		//처음 한번 만 실행
+		while(i<=10) {		//(2) 0->0, 1->1, 2->3 
+			sum+=i;		//(3)
+			i++;		//(4)
+		}
+		
+		//1~100 4의 배수의 합산결과를 출력
+		int a = 0;
+		sum = 0;
+		while(a<100) {
+			a+=4;		//100
+			sum+=a;		//...+96
+		}
+		
+	}
+}
